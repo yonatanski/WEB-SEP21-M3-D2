@@ -1,0 +1,227 @@
+body {
+  background: rgb(185, 42, 144);
+  background: linear-gradient(
+    180deg,
+    rgba(185, 42, 144, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+.jumbotron {
+  background: none;
+  border-radius: 0;
+}
+
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+nav a:hover {
+  text-decoration: none;
+}
+
+.container-header {
+  background-color: #00000066;
+}
+
+.headerSmallRow {
+  color: #ccc;
+  margin-left: 5px;
+}
+
+#albumImg {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.album-title {
+  color: aliceblue;
+}
+.album-header {
+  color: aliceblue;
+}
+.ancher-header {
+  color: aliceblue;
+  margin-left: 5px;
+}
+.play-btn {
+  background: red;
+}
+
+.shortWidth {
+  width: 32px;
+}
+
+#copyright p {
+  font-size: 0.7em;
+}
+
+.bottom-album #seeMore {
+  color: #ccc;
+}
+
+.card {
+  /* background-color: #121212; */
+  margin-top: 3px;
+}
+.card-popular-release {
+  width: 13rem;
+  height: 17rem;
+  background: #121212;
+  transition: 0.3s;
+}
+.card-popular-release:hover {
+  width: 13rem;
+  height: 17rem;
+  box-shadow: 1px 1px 5px 5px rgb(150, 150, 150, 0.2);
+  background: #313030;
+}
+.album-img {
+  width: 11rem;
+  height: 11rem;
+}
+.card-album-text {
+  font-size: 13px;
+  color: rgb(192, 192, 192);
+}
+.card {
+  color: transparent;
+}
+.card:hover {
+  color: #00ff00;
+}
+.card-body {
+  color: inherit;
+}
+.playButton {
+  color: inherit;
+}
+.card-about-contents {
+  margin-top: 350px;
+  margin-left: 50px;
+}
+.bottom-album {
+  /* background-color: #121212; */
+}
+#botton-title a {
+  text-decoration: none;
+  color: white;
+}
+.table {
+  color: #121212;
+}
+.link {
+  color: white;
+}
+.colors {
+  columns: white;
+}
+.TheaderText {
+  color: #bbb;
+}
+.container2 {
+  height: 100px;
+}
+.headerLine {
+  margin-top: none;
+  margin-bottom: none;
+}
+.container2 {
+}
+/* .table > tboday > tr > td:hover {
+  color: white !important;
+} */
+/* .card-body .card-text {
+  background-color: #121212;
+  color: aliceblue;
+} */
+/* .card:hover {
+  color: white;
+} */
+
+/* Navbar */
+nav {
+  min-width: 220px;
+  background: #000;
+  height: calc(100vh - 30px - 0.5rem);
+  overflow-y: auto;
+}
+
+nav > ul {
+  list-style: none;
+}
+
+nav > ul a {
+  text-decoration: none;
+  color: inherit;
+}
+
+nav > ul a:hover {
+  color: #fff;
+  background: #666;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+.navIcon {
+  width: 30px;
+}
+
+nav #albumsList {
+  min-height: 100px;
+  max-height: calc(100vh - 450px);
+  font-size: 0.8em;
+  font-weight: 300;
+  overflow: auto;
+}
+
+/* main */
+
+main {
+  height: calc(100vh - 30px - 0.5rem);
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+#topNav #arrows button:not(#menuButton) {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+
+#topNav #user {
+  font-size: 0.7em;
+  font-weight: 500;
+  border-radius: 30px;
+}
+
+/* Player */
+#player {
+  position: fixed;
+  right: 0%;
+  bottom: 0;
+  left: 0;
+}
+
+#player img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+
+#player #albumTitle {
+  font-size: 0.7em;
+}
+
+#player #albumGroup {
+  font-size: 0.5em;
+}
+
+#player .progress {
+  height: 0.25rem;
+}
+
+#player #time {
+  font-size: 0.5em;
+}

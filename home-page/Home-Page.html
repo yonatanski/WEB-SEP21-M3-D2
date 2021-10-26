@@ -1,0 +1,1310 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ <!-- Required meta tags -->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
+    <!-- Bootstrap CSS -->
+    <title>Spotify|Home</title>
+    <link rel = "icon" href =  "./assets/spotify-_2_-copy.ico" type = "image/x-icon">
+    <!-- external css -->
+    <link rel="stylesheet" href="home-style.css" />
+      <!-- external css -->
+  </head>
+  <body class="d-fixed d-sm-flex p-0 m-0">
+    <!-- Navbar -->
+    <nav class="text-light d-lg-block p-1">
+      <div class="d-flex justify-content-between align-items-center">
+        <img
+          src="./assets/Spotify_Logo_RGB_White.png"
+          alt="Spotify Logo"
+          width="150px"
+          class="p-3"
+        />
+        <button class="btn btn-dark d-sm-none m-2" id="menuButtonNav">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-list"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+            />
+          </svg>
+        </button>
+      </div>
+      <ul class="container-fluid my-3">
+        <li class="row">
+          <a href="../home-page/Home-Page.html" class="col-12 d-flex align-items-center px-3 py-1">
+            <span class="navIcon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-house-door-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5z"
+                />
+              </svg>
+            </span>
+            Home
+          </a>
+        </li>
+        <li class="row">
+          <a href="#" class="col-12 d-flex align-items-center px-3 py-1">
+            <span class="navIcon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-search"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+                />
+              </svg>
+            </span>
+            Search
+          </a>
+        </li>
+        <li class="row">
+          <a href="#" class="col-12 d-flex align-items-center px-3 py-1">
+            <span class="navIcon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-collection-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M0 13a1.5 1.5 0 0 0 1.5 1.5h13A1.5 1.5 0 0 0 16 13V6a1.5 1.5 0 0 0-1.5-1.5h-13A1.5 1.5 0 0 0 0 6v7zM2 3a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 0-1h-11A.5.5 0 0 0 2 3zm2-2a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 0-1h-7A.5.5 0 0 0 4 1z"
+                />
+              </svg>
+            </span>
+            Your library
+          </a>
+        </li>
+      </ul>
+      <ul class="container-fluid my-3">
+        <li class="row">
+          <a href="#" class="col-12 d-flex align-items-center px-3 py-1">
+            <span class="navIcon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-plus-square-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm6.5 4.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3a.5.5 0 0 1 1 0z"
+                />
+              </svg>
+            </span>
+            Create Playlist
+          </a>
+        </li>
+        <li class="row">
+          <a href="#" class="col-12 d-flex align-items-center px-3 py-1">
+            <span class="navIcon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-heart-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"
+                />
+              </svg>
+            </span>
+            Liked Songs
+          </a>
+        </li>
+        <li class="py-1">
+          <hr />
+        </li>
+      </ul>
+      <ul class="container-fluid my-3" id="albumsList">
+        <li class="row">
+          <a href="#" class="col-12 px-3 py-1">Random Song Title</a>
+        </li>
+        <li class="row">
+          <a href="#" class="col-12 d-flex justify-content-between px-3 py-1"
+            >Random Song Title
+            <span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-people"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8zm-7.978-1A.261.261 0 0 1 7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002a.274.274 0 0 1-.014.002H7.022zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816zM4.92 10A5.493 5.493 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275zM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0zm3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4z"
+                />
+              </svg>
+            </span>
+          </a>
+        </li>
+        <li class="row">
+          <a href="#" class="col-12 px-3 py-1">Random Song Title</a>
+        </li>
+        <li class="row">
+          <a href="#" class="col-12 px-3 py-1">Random Song Title</a>
+        </li>
+        <li class="row">
+          <a href="#" class="col-12 d-flex justify-content-between px-3 py-1"
+            >Random Song Title
+            <span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-people"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8zm-7.978-1A.261.261 0 0 1 7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002a.274.274 0 0 1-.014.002H7.022zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816zM4.92 10A5.493 5.493 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275zM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0zm3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4z"
+                />
+              </svg>
+            </span>
+          </a>
+        </li>
+        <li class="row">
+          <a href="#" class="col-12 px-3 py-1">Random Song Title</a>
+        </li>
+        <li class="row">
+          <a href="#" class="col-12 px-3 py-1">Random Song Title</a>
+        </li>
+        <li class="row">
+          <a href="#" class="col-12 px-3 py-1">Random Song Title</a>
+        </li>
+        <li class="row">
+          <a href="#" class="col-12 px-3 py-1">Random Song Title</a>
+        </li>
+        <li class="row">
+          <a href="#" class="col-12 d-flex justify-content-between px-3 py-1"
+            >Random Song Title
+            <span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-people"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8zm-7.978-1A.261.261 0 0 1 7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002a.274.274 0 0 1-.014.002H7.022zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816zM4.92 10A5.493 5.493 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275zM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0zm3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4z"
+                />
+              </svg>
+            </span>
+          </a>
+        </li>
+        <li class="row">
+          <a href="#" class="col-12 d-flex justify-content-between px-3 py-1"
+            >Random Song Title
+            <span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-people"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8zm-7.978-1A.261.261 0 0 1 7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002a.274.274 0 0 1-.014.002H7.022zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816zM4.92 10A5.493 5.493 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275zM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0zm3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4z"
+                />
+              </svg>
+            </span>
+          </a>
+        </li>
+        <li class="row">
+          <a href="#" class="col-12 px-3 py-1">Random Song Title</a>
+        </li>
+        <li class="row">
+          <a href="#" class="col-12 px-3 py-1">Random Song Title</a>
+        </li>
+        <li class="row">
+          <a href="#" class="col-12 px-3 py-1">Random Song Title</a>
+        </li>
+        <li class="row">
+          <a href="#" class="col-12 px-3 py-1">Random Song Title</a>
+        </li>
+        <li class="row">
+          <a href="#" class="col-12 px-3 py-1">Random Song Title</a>
+        </li>
+        <li class="row">
+          <a href="#" class="col-12 px-3 py-1">Random Song Title</a>
+        </li>
+        <li class="row">
+          <a href="#" class="col-12 px-3 py-1">Random Song Title</a>
+        </li>
+        <li class="row">
+          <a href="#" class="col-12 d-flex justify-content-between px-3 py-1"
+            >Random Song Title
+            <span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-people"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8zm-7.978-1A.261.261 0 0 1 7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002a.274.274 0 0 1-.014.002H7.022zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816zM4.92 10A5.493 5.493 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275zM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0zm3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4z"
+                />
+              </svg>
+            </span>
+          </a>
+        </li>
+        <li class="row">
+          <a href="#" class="col-12 px-3 py-1">Random Song Title</a>
+        </li>
+      </ul>
+      <ul class="container-fluid my-3">
+        <li class="row">
+          <a
+            href="https://www.spotify.com/us/download/other/"
+            target="_blank"
+            class="col-12 d-flex align-items-center px-3 py-1"
+          >
+            <span class="navIcon">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-download"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"
+                />
+                <path
+                  d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"
+                />
+              </svg>
+            </span>
+            Install App
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <main
+      class="container-fluid d-none d-sm-block p-1 p-sm-2 p-md-3"
+    >
+      <!-- Top Buttons -->
+      <div
+        class="d-flex justify-content-between align-items-center sticky-top"
+        id="topNav"
+      >
+        <div class="d-flex align-items-center" id="arrows">
+          <button class="btn btn-dark d-lg-none m-2" id="menuButton">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-list"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+              />
+            </svg>
+          </button>
+          <button
+            class="
+              d-flex
+              justify-content-center
+              align-items-center
+              text-light
+              bg-dark
+              border-0
+              mx-1 mx-sm-2
+            "
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-chevron-left"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"
+              />
+            </svg>
+          </button>
+          <button
+            class="
+              d-flex
+              justify-content-center
+              align-items-center
+              text-light
+              bg-dark
+              border-0
+              mx-1 mx-sm-2
+            "
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-chevron-right"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
+              />
+            </svg>
+          </button>
+        </div>
+        <button
+          class="
+            d-flex
+            justify-content-center
+            align-items-center
+            text-light
+            bg-dark
+            border-0
+            p-1
+            mx-1 mx-sm-2
+          "
+          id="user"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            fill="currentColor"
+            class="bi bi-person-circle"
+            viewBox="0 0 16 16"
+          >
+            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+            <path
+              fill-rule="evenodd"
+              d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"
+            />
+          </svg>
+          <span class="px-2">Diego 'Ziba' Ba...</span>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-caret-down-fill"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"
+            />
+          </svg>
+        </button>
+      </div>
+
+      <!-- Main -->
+    
+    <div class="container-fluid mainContainer">
+     
+        <!-- <div class="col-12"> -->
+          <!-- G.moring header  -->
+    <div class=" goodmorningcontainer mt-5 mb-3">
+      <h4 id="display" class=" mx-2">Good morning</h4>
+    </div>
+   <!-- G.moring header  -->
+  
+  <div class="d-flex justify-content-between">
+    <!-- card 1 -->
+    <div class="music-card mx-2"  id="cardHover" onmouseover="mouseOver('linear-gradient(180deg, rgb(28, 4, 83) 0%, rgb(0, 0, 0) 35%)')" onmouseout="mouseOut() ">
+      <div class="media d-flex">
+        <img
+          src="./assets/JColeKOD.jpg"
+          class="mr-3 img-fluid img1"
+          alt="..."
+        />
+        <div class="media-body bodyHover d-flex align-self-center">
+          <h6 class="mt-0">KOD</h6>
+          <h6 class="card-title ml-3"><i class="bi bi-play-circle-fill playHover"></i></h6>
+        </div>
+      </div>
+    </div>
+    <!-- card 2 -->
+    <div class="music-card mx-2 d-none d-md-block">
+      <div class="media gm flex-fill" id="cardHover" onmouseover="mouseOver('linear-gradient(180deg, rgb(252, 186, 3) 0%, rgb(0, 0, 0) 35%)')" onmouseout="mouseOut() ">
+        <img
+          src="./assets/Alleyezonme.jpg"
+          class="mr-3 img-fluid img1"
+          alt="..."
+        />
+        <div class="media-body bodyHover d-flex align-self-center">
+          <h6 class="mt-0">All eyez on me</h6>
+          <h6 class="card-title ml-3"><i class="bi bi-play-circle-fill playHover"></i></h6>
+        </div>
+      </div>
+    </div>
+    <!-- card 3 -->
+    <div class="music-card mx-2 d-none d-lg-block">
+      <div class="media gm"id="cardHover" onmouseover="mouseOver('linear-gradient(180deg, rgb(101, 150, 219) 0%, rgb(0, 0, 0) 35%)')" onmouseout="mouseOut() ">
+        <img
+          src="./assets/Dave_Psychodrama.jpeg"
+          class="mr-3 img-fluid img1"
+          alt="..."
+        />
+        <div class="media-body bodyHover d-flex align-self-center">
+          <h6 class="mt-0">Psychodrama</h6>
+          <h6 class="card-title ml-3"><i class="bi bi-play-circle-fill playHover"></i></h6>
+        </div>
+      </div>
+    </div>
+    <!-- card 4 -->
+    <div class="music-card mx-2 d-none d-xl-block">
+      <div class="media gm" id="cardHover" onmouseover="mouseOver('linear-gradient(180deg, rgb(25, 4, 83) 0%, rgb(0, 0, 0) 35%)')" onmouseout="mouseOut()"">
+        <img
+          src="./assets/Ready_To_Die.jpg"
+          class="mr-3 img-fluid img1"
+          alt="..."
+        />
+        <div class="media-body bodyHover d-flex align-self-center">
+          <h6 class="mt-0">Ready to die</h6>
+          <h6 class="card-title ml-3"><i class="bi bi-play-circle-fill playHover"></i></h6>
+        </div>
+      </div>
+    </div>
+    <!-- card 5 -->
+    <div class="music-card mx-2 d-none d-sm-block">
+      <div class="media gm"  id="cardHover" onmouseover="mouseOver('linear-gradient(180deg, rgb(82, 83, 4) 0%, rgb(0, 0, 0) 35%)')" onmouseout="mouseOut()">
+        <img
+          src="./assets/sad xxxt.jfif"
+          class="mr-3 img-fluid img1"
+          alt="..."
+        />
+        <div class="media-body bodyHover d-flex align-self-center">
+          <h6 class="mt-0">Sad</h6>
+          <h6 class="card-title ml-3"><i class="bi bi-play-circle-fill playHover"></i></h6>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--  -->
+  <!-- card second col -->
+  <!-- card 6 -->
+  <div class="d-flex mt-3">
+    <div class="music-card mx-2 ">
+      <div class="media gm"  id="cardHover" onmouseover="mouseOver('linear-gradient(180deg, rgb(4, 78, 83) 0%, rgb(0, 0, 0) 35%)')" onmouseout="mouseOut()">
+        <img
+          src="./assets/IllmaticNas.jpg"
+          class="mr-3 img-fluid img1"
+          alt="..."
+        />
+        <div class="media-body bodyHover d-flex align-self-center">
+          <h6 class="mt-0">Illmatic</h6>
+          <h6 class="card-title ml-3"><i class="bi bi-play-circle-fill playHover"></i></h6>
+        </div>
+      </div>
+    </div>
+    <div class="music-card mx-2 d-none d-md-block">
+      <div class="media gm" id="cardHover" onmouseover="mouseOver('linear-gradient(180deg, rgb(83, 4, 43) 0%, rgb(0, 0, 0) 35%)')" onmouseout="mouseOut()">
+        <img
+          src="./assets/J._Cole_—_4_Your_Eyez_Only_album_cover.jpg"
+          class="mr-3 img-fluid img1"
+          alt="..."
+        />
+        <div class="media-body bodyHover d-flex align-self-center">
+          <h6 class="mt-0">4 your eyez only</h6>
+          <h6 class="card-title ml-3"><i class="bi bi-play-circle-fill playHover"></i></h6>
+        </div>
+      </div>
+    </div>
+    <!-- card 7 -->
+    <div class="music-card mx-2 d-none d-lg-block">
+      <div class="media gm "id="cardHover" onmouseover="mouseOver('linear-gradient(180deg, rgb(83, 35, 4) 0%, rgb(0, 0, 0) 35%)')" onmouseout="mouseOut()">
+        <img
+          src="./assets/220px-Juice_Wrld_-_Legends_Never_Die.png"
+          class="mr-3 img-fluid img1"
+          alt="..."
+        />
+        <div class="media-body bodyHover d-flex align-self-center">
+          <h6 class="mt-0">Legends never die</h6>
+          <h6 class="card-title ml-3"><i class="bi bi-play-circle-fill playHover"></i></h6>
+        </div>
+      </div>
+    </div>
+    <!-- card 8 -->
+    <div class="music-card mx-2 d-none d-xl-block">
+      <div class="media gm" id="cardHover" onmouseover="mouseOver('linear-gradient(180deg, rgb(83, 4, 79) 0%, rgb(0, 0, 0) 35%)')" onmouseout="mouseOut()">
+        <img
+          src="./assets/Billie_Eilish_-_Don't_Smile_at_Me.png"
+          class="mr-3 img-fluid img1"
+          alt="..."
+        />
+        <div class="media-body bodyHover d-flex align-self-center">
+          <h6 class="mt-0">Don't smile at me</h6>
+          <h6 class="card-title ml-3"><i class="bi bi-play-circle-fill playHover"></i></h6>
+        </div>
+      </div>
+    </div>
+    <!-- card 8 -->
+    <div class="music-card mx-2 d-none d-sm-block">
+      <div class="media gm" id="cardHover" onmouseover="mouseOver('linear-gradient(180deg, rgb(4, 83, 14) 0%, rgb(0, 0, 0) 35%)')" onmouseout="mouseOut()">
+        <img
+          src="./assets/Konnichiwa_by_Skepta_cover.jpg"
+          class="mr-3 img-fluid img1"
+          alt="..."
+        />
+        <div class="media-body bodyHover d-flex align-self-center">
+          <h6 class="mt-0">Konnichiwa</h6>
+          <h6 class="card-title ml-3"><i class="bi bi-play-circle-fill playHover"></i></h6>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    
+    <!-- recently played section  -->
+    <section class="hero-section-borderless mx-0">
+      <div class="recentPlayed-Section mt-5 mb-3">
+        <h4 class=" mx-2 ">Recently played</h4> 
+        <a class="seeAll1 mx-2">SEE ALL</a>
+      </div>
+
+      <div class="container-fluid ">
+        <div class="row recentlyPlayed-Cards">
+          <!-- card 1 -->
+          <a href="../album-page/album.html" class="col-sm-6 col-md-3 col-lg-2 mb-3 px-0">
+            <div class="card cardwrap mx-2 h-100 bg-dark border-dark">
+              <img
+                src="assets/220px-Juice_Wrld_-_Legends_Never_Die.png"
+                class="p-3"
+                alt="..."
+                id="notRounded"
+              />
+              <div class="card-body d-flex justify-content-between">
+                
+                <p class="card-text text-white"><strong>xxx tentasion</strong> <br>
+                
+                  <small class="text-muted">Music.</small>
+                </p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-play-circle-fill playButton" viewBox="0 0 16 16">
+                  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/>
+                </svg>
+              </div>
+            
+            </div>
+          </a>
+          <!-- card 2 -->
+          <a href="../album-page/album.html " class="col-sm-6 col-md-3 col-lg-2 mb-3 px-0">
+            <div class="card cardwrap mx-2  h-100 bg-dark border-dark">
+              <img
+                src="assets/Alleyezonme.jpg"
+                class="p-3"
+                alt="..."
+                id="notRounded"
+              />
+              <div class="card-body d-flex justify-content-between">
+                
+                <p class="card-text text-white"><strong>2 PAC</strong><br>
+                
+                  <small class="text-muted">Music.</small>
+                </p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-play-circle-fill playButton" viewBox="0 0 16 16">
+                  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/>
+                </svg>
+              </div>
+            </div>
+          </a >
+          <!-- card 3 -->
+          <a href="../album-page/album.html"  class="col-sm-6 col-md-3 col-lg-2 mb-3 px-0">
+            <div class="card cardwrap mx-2 h-100 bg-dark border-dark">
+              <img
+                src="assets/JColeKOD.jpg"
+                class="p-3"
+                alt="..."
+                id="notRounded"
+              />
+              <div class="card-body d-flex justify-content-between">
+                
+                <p class="card-text text-white"><strong>J-cole</strong><br>
+                
+                  <small class="text-muted">Music.</small>
+                </p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-play-circle-fill playButton" viewBox="0 0 16 16">
+                  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/>
+                </svg>
+              </div>
+            </div>
+          </a >
+          <!-- card 4 -->
+          <a href="../album-page/album.html"  class="col-sm-6 col-md-3 col-lg-2 mb-3 px-0">
+            <div class="card cardwrap mx-2 h-100 bg-dark border-dark">
+              <img
+                src="assets/Billie_Eilish_-_Don't_Smile_at_Me.png"
+                class="p-3"
+                alt="..."
+                id="notRounded"
+              />
+              <div class="card-body d-flex justify-content-between">
+                
+                <p class="card-text text-white"><strong>Bille Elish</strong> <br>
+                
+                  <small class="text-muted">Music</small>
+                </p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-play-circle-fill playButton" viewBox="0 0 16 16">
+                  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/>
+                </svg>
+              </div>
+            </div>
+          </a>
+          <!-- card 5 -->
+          <a href="../album-page/album.html"  class="col-sm-6 col-md-3 col-lg-2 mb-3 px-0">
+            <div class="card cardwrap mx-2 h-100 bg-dark border-dark">
+              <img
+                src="assets/Dave_Psychodrama.jpeg"
+                class="p-3"
+                alt="..."
+                id="notRounded"
+              />
+              <div class="card-body d-flex justify-content-between">
+                
+                <p class="card-text text-white"><strong>Dave</strong><br>
+                
+                  <small class="text-muted">Music.</small>
+                </p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-play-circle-fill playButton" viewBox="0 0 16 16">
+                  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/>
+                </svg>
+                
+              </div>
+            </div>
+          </a>
+          <!-- card 6 -->
+          <a href="../album-page/album.html"  class="col-sm-6 col-md-3 col-lg-2 mb-3 px-0">
+            <div class="card cardwrap mx-2 h-100 bg-dark border-dark">
+              <img
+                src="assets/Drake_-_Take_Care_cover.jpg"
+                class="p-3"
+                alt="..."
+                id="notRounded"
+              />
+              <div class="card-body d-flex justify-content-between">
+                
+                <p class="card-text text-white"><strong>Drake</strong><br>
+                
+                  <small class="text-muted">Music.</small>
+                </p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-play-circle-fill playButton" viewBox="0 0 16 16">
+                  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/>
+                </svg>
+              </div>
+            </div>
+          </a>
+          <!-- card 7 -->
+          <a href="../album-page/album.html"  class="col-sm-6 col-md-3 col-lg-2 mb-3 px-0">
+            <div class="card cardwrap mx-2 h-100 bg-dark border-dark">
+              <img
+                src="assets/IllmaticNas.jpg"
+                class="p-3"
+                alt="..."
+                id="notRounded"
+              />
+              <div class="card-body d-flex justify-content-between">
+                
+                <p class="card-text text-white"><strong>Nas</strong> <br>
+                
+                  <small class="text-muted">Music</small>
+                </p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-play-circle-fill playButton" viewBox="0 0 16 16">
+                  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/>
+                </svg>
+              </div>
+            </div>
+          </a>
+          <!-- card 8 -->
+          <a href="../album-page/album.html"  class="col-sm-6 col-md-3 col-lg-2 mb-3 px-0">
+            <div class="card cardwrap mx-2 h-100 bg-dark border-dark">
+              <img
+                src="assets/J._Cole_—_4_Your_Eyez_Only_album_cover.jpg"
+                class="p-3"
+                alt="..."
+                id="notRounded"
+              />
+              <div class="card-body d-flex justify-content-between">
+                
+                <p class="card-text text-white"><strong> J cole</strong><br>
+                
+                  <small class="text-muted">Music</small>
+                </p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-play-circle-fill playButton" viewBox="0 0 16 16">
+                  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/>
+                </svg>
+              </div>
+            </div>
+          </a>
+          <!-- card 9 -->
+          <a href="../album-page/album.html"  class="col-sm-6 col-md-3 col-lg-2 mb-3 px-0">
+            <div class="card cardwrap mx-2 h-100 bg-dark border-dark">
+              <img
+                src="assets/Kanyewest_collegedropout.jpg"
+                class="p-3"
+                alt="..."
+                id="notRounded"
+              />
+              <div class="card-body d-flex justify-content-between">
+                
+                <p class="card-text text-white"><strong>Kayne west</strong><br>
+                
+                  <small class="text-muted">Music</small>
+                </p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-play-circle-fill playButton" viewBox="0 0 16 16">
+                  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/>
+                </svg>
+              </div>
+            </div>
+          </a>
+          <!-- card 10 -->
+          <a href="../album-page/album.html"  class="col-sm-6 col-md-3 col-lg-2 mb-3 px-0">
+            <div class="card cardwrap mx-2 h-100 bg-dark border-dark">
+              <img
+                src="assets/Joe-Rogan.jpg"
+                class="p-3"
+                alt="..."
+                id="notRounded"
+              />
+              <div class="card-body d-flex justify-content-between">
+                
+                <p class="card-text text-white"><strong>Joe-Rogan</strong> <br>
+                
+                  <small class="text-muted">Music.</small>
+                </p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-play-circle-fill playButton" viewBox="0 0 16 16">
+                  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/>
+                </svg>
+              </div>
+            </div>
+          </a>
+          <!-- card 11 -->
+          <a href="../album-page/album.html"  class="col-sm-6 col-md-3 col-lg-2 mb-3 px-0">
+            <div class="card cardwrap mx-2 h-100 bg-dark border-dark">
+              <img
+                src="assets/Kendrick_Lamar_-_To_Pimp_a_Butterfly.png"
+                class="p-3"
+                alt="..."
+                id="notRounded"
+              />
+              <div class="card-body d-flex justify-content-between">
+                
+                <p class="card-text text-white"><strong>Kendrick Lamar</strong><br>
+                
+                  <small class="text-muted">Music</small>
+                </p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-play-circle-fill playButton" viewBox="0 0 16 16">
+                  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/>
+                </svg>
+              </div>
+            </div>
+          </a>
+          <!-- card 12 -->
+          <a href="../album-page/album.html"  class="col-sm-6 col-md-3 col-lg-2 mb-3 px-0">
+            <div class="card cardwrap mx-2 h-100 bg-dark border-dark">
+              <img
+                src="assets/The_Blueprint.png"
+                class="p-3"
+                alt="..."
+                id="notRounded"
+              />
+              <div class="card-body d-flex justify-content-between">
+                
+                <p class="card-text text-white"><strong>Jay- Z</strong><br>
+                
+                  <small class="text-muted">The most interesting tracks.</small>
+                </p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-play-circle-fill playButton" viewBox="0 0 16 16">
+                  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/>
+                </svg>
+              </div>
+            </div>
+          </a>
+    </div>
+    </section>
+        <!-- recently played section  -->
+        <!--  -->
+        <!-- Shows to try  -->
+    <section id="hero-section-borderless mx-0">
+      <div class="showsToTry">
+        <div class="showsToTry-Left  mt-5 mb-3">
+          <h4 class="mt-2 mx-2 my-0">Shows to try</h4>
+          <small class="text-muted my-0 mx-2">Podcasts we think you'll get hooked on.</small>
+        </div>
+        <div class="showsToTry-Right">
+          <a class="seeAll2 mx-2">SEE ALL</a>
+        </div>
+      </div>
+
+      <div class="container-fluid ">
+        <!-- using the same card as in recently played section  -->
+        <div class="row recentlyPlayed-Cards">
+          <!-- card 1 -->
+          <a href="../album-page/album.html"  class="col-sm-6 col-md-3 col-lg-2 mb-3 px-0">
+            <div class="card cardwrap mx-2 h-100 bg-dark border-dark">
+              <img
+                src="assets/Kanyewest_collegedropout.jpg"
+                class="p-3"
+                alt="..."
+                id="notRounded"
+              />
+              <div class="card-body d-flex justify-content-between">
+                
+                <p class="card-text text-white"><strong>Kayne West</strong> <br>
+                
+                  <small class="text-muted">Music</small>
+                </p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-play-circle-fill playButton" viewBox="0 0 16 16">
+                  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/>
+                </svg>
+              </div>
+            </div>
+          </a>
+          <!-- card 2 -->
+          <a href="../album-page/album.html"  class="col-sm-6 col-md-3 col-lg-2 mb-3 px-0">
+            <div class="card cardwrap mx-2 h-100 bg-dark border-dark">
+              <img
+                src="assets/Billie_Eilish_-_Don't_Smile_at_Me.png"
+                class="p-3"
+                alt="..."
+                id="notRounded"
+              />
+              <div class="card-body d-flex justify-content-between">
+                
+                <p class="card-text text-white"><strong>Belie Elissh</strong><br>
+                
+                  <small class="text-muted">Music.</small>
+                </p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-play-circle-fill playButton" viewBox="0 0 16 16">
+                  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/>
+                </svg>
+              </div>
+            </div>
+          </a>
+          <!-- card 3 -->
+          <a href="../album-page/album.html"   class="col-sm-6 col-md-3 col-lg-2 mb-3 px-0">
+            <div class="card cardwrap mx-2 h-100 bg-dark border-dark">
+              <img
+                src="assets/Kanyewest_collegedropout.jpg"
+                class="p-3"
+                alt="..."
+                id="notRounded"
+              />
+              <div class="card-body d-flex justify-content-between">
+                
+                <p class="card-text text-white"><strong>Kayne west</strong><br>
+                
+                  <small class="text-muted">Music</small>
+                </p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-play-circle-fill playButton" viewBox="0 0 16 16">
+                  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/>
+                </svg>
+              </div>
+            </div>
+          </a>
+          <!-- card 4 -->
+          <a href="../album-page/album.html"  class="col-sm-6 col-md-3 col-lg-2 mb-3 px-0">
+            <div class="card cardwrap mx-2 h-100 bg-dark border-dark">
+              <img
+                src="assets/Billie_Eilish_-_Don't_Smile_at_Me.png"
+                class="p-3"
+                alt="..."
+                id="notRounded"
+              />
+              <div class="card-body d-flex justify-content-between">
+                
+                <p class="card-text text-white"><strong>Bilile Elish</strong> <br>
+                
+                  <small class="text-muted">Music</small>
+                </p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-play-circle-fill playButton" viewBox="0 0 16 16">
+                  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/>
+                </svg>
+              </div>
+            </div>
+          </a>
+          <!-- card 5 -->
+          <a href="../album-page/album.html"  class="col-sm-6 col-md-3 col-lg-2 mb-3 px-0">
+            <div class="card cardwrap mx-2 h-100 bg-dark border-dark">
+              <img
+                src="assets/Drake_-_Take_Care_cover.jpg"
+                class="p-3"
+                alt="..."
+                id="notRounded"
+              />
+              <div class="card-body d-flex justify-content-between">
+                
+                <p class="card-text text-white"><strong>Drake</strong><br>
+                
+                  <small class="text-muted">Music.</small>
+                </p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-play-circle-fill playButton" viewBox="0 0 16 16">
+                  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/>
+                </svg>
+              </div>
+            </div>
+          </a>
+          <!-- card 6 -->
+          <a href="../album-page/album.html" class="col-sm-6 col-md-3 col-lg-2 mb-3 px-0">
+            <div class="card cardwrap mx-2 h-100 bg-dark border-dark">
+              <img
+                src="assets/Dave_Psychodrama.jpeg"
+                class="p-3"
+                alt="..."
+                id="notRounded"
+              />
+              <div class="card-body d-flex justify-content-between">
+                
+                <p class="card-text text-white"><strong>Dave</strong><br>
+                
+                  <small class="text-muted">Music</small>
+                </p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-play-circle-fill playButton" viewBox="0 0 16 16">
+                  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/>
+                </svg>
+              </div>
+            </div>
+          </a>
+          
+        </div>
+    </section>
+          <!-- End Shows to try  -->
+        </div>
+      </div>
+     <!--maincol-10cloosure -->
+    </div>
+     <!--maincol-10cloosure -->
+    <!--main row closure  -->
+     </div>
+  <!--main row closure  -->
+      <!-- main container div closure  -->
+     </div>
+    <!-- main container div closure   -->
+  </div>
+    </main>
+    <!-- Player -->
+    <div class="container-fluid text-light bg-dark px-2" id="player">
+      <div class="row">
+        <div
+          class="
+            col-3
+            d-none d-lg-flex
+            justify-content-start
+            align-items-center
+          "
+        >
+          <img
+            src="./assets/547bd0a772e61ebca80bdf844e6bb960.jpg"
+            alt="album cover"
+          />
+          <div class="p-2" id="albumInfo">
+            <div id="albumTitle">
+              Another One Bites The Dust - Remastered 2011
+            </div>
+            <div class="text-secondary" id="albumGroup">Queen</div>
+          </div>
+          <div class="d-flex">
+            <div class="px-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="12"
+                height="12"
+                fill="currentColor"
+                class="bi bi-suit-heart"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595L8 6.236zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.55 7.55 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z"
+                />
+              </svg>
+            </div>
+            <div class="px-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="12"
+                height="12"
+                fill="currentColor"
+                class="bi bi-pip"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M0 3.5A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5v-9zM1.5 3a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"
+                />
+                <path
+                  d="M8 8.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5h-5a.5.5 0 0 1-.5-.5v-3z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div
+          class="
+            col-12 col-lg-6
+            d-flex
+            flex-column
+            justify-content-center
+            align-items-center
+          "
+        >
+          <div class="d-flex justify-content-center pb-2">
+            <div class="px-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-shuffle"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M0 3.5A.5.5 0 0 1 .5 3H1c2.202 0 3.827 1.24 4.874 2.418.49.552.865 1.102 1.126 1.532.26-.43.636-.98 1.126-1.532C9.173 4.24 10.798 3 13 3v1c-1.798 0-3.173 1.01-4.126 2.082A9.624 9.624 0 0 0 7.556 8a9.624 9.624 0 0 0 1.317 1.918C9.828 10.99 11.204 12 13 12v1c-2.202 0-3.827-1.24-4.874-2.418A10.595 10.595 0 0 1 7 9.05c-.26.43-.636.98-1.126 1.532C4.827 11.76 3.202 13 1 13H.5a.5.5 0 0 1 0-1H1c1.798 0 3.173-1.01 4.126-2.082A9.624 9.624 0 0 0 6.444 8a9.624 9.624 0 0 0-1.317-1.918C4.172 5.01 2.796 4 1 4H.5a.5.5 0 0 1-.5-.5z"
+                />
+                <path
+                  d="M13 5.466V1.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384l-2.36 1.966a.25.25 0 0 1-.41-.192zm0 9v-3.932a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384l-2.36 1.966a.25.25 0 0 1-.41-.192z"
+                />
+              </svg>
+            </div>
+            <div class="px-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-chevron-double-left"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M8.354 1.646a.5.5 0 0 1 0 .708L2.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"
+                />
+                <path
+                  fill-rule="evenodd"
+                  d="M12.354 1.646a.5.5 0 0 1 0 .708L6.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"
+                />
+              </svg>
+            </div>
+            <div class="px-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-play-circle-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"
+                />
+              </svg>
+            </div>
+            <div class="px-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-chevron-double-right"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z"
+                />
+                <path
+                  fill-rule="evenodd"
+                  d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z"
+                />
+              </svg>
+            </div>
+            <div class="px-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-arrow-repeat"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M11.534 7h3.932a.25.25 0 0 1 .192.41l-1.966 2.36a.25.25 0 0 1-.384 0l-1.966-2.36a.25.25 0 0 1 .192-.41zm-11 2h3.932a.25.25 0 0 0 .192-.41L2.692 6.23a.25.25 0 0 0-.384 0L.342 8.59A.25.25 0 0 0 .534 9z"
+                />
+                <path
+                  fill-rule="evenodd"
+                  d="M8 3c-1.552 0-2.94.707-3.857 1.818a.5.5 0 1 1-.771-.636A6.002 6.002 0 0 1 13.917 7H12.9A5.002 5.002 0 0 0 8 3zM3.1 9a5.002 5.002 0 0 0 8.757 2.182.5.5 0 1 1 .771.636A6.002 6.002 0 0 1 2.083 9H3.1z"
+                />
+              </svg>
+            </div>
+          </div>
+          <div
+            class="d-flex justify-content-center align-items-center w-100"
+            id="time"
+          >
+            <div class="px-2">1:12</div>
+            <div class="progress w-100">
+              <div
+                class="progress-bar progress-bar-striped bg-secondary"
+                role="progressbar"
+                style="width: 25%"
+                aria-valuenow="25"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+            <div class="px-2">-3:36</div>
+          </div>
+        </div>
+        <div
+          class="col-3 d-none d-lg-flex justify-content-end align-items-center"
+        >
+          <div class="d-flex align-items-center px-1">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="12"
+              height="12"
+              fill="currentColor"
+              class="bi bi-text-indent-left"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M2 3.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm.646 2.146a.5.5 0 0 1 .708 0l2 2a.5.5 0 0 1 0 .708l-2 2a.5.5 0 0 1-.708-.708L4.293 8 2.646 6.354a.5.5 0 0 1 0-.708zM7 6.5a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5zm0 3a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5zm-5 3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z"
+              />
+            </svg>
+          </div>
+          <div class="d-flex align-items-center px-1">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="12"
+              height="12"
+              fill="currentColor"
+              class="bi bi-speaker"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M12 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h8zM4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4z"
+              />
+              <path
+                d="M8 4.75a.75.75 0 1 1 0-1.5.75.75 0 0 1 0 1.5zM8 6a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 3a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm-3.5 1.5a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z"
+              />
+            </svg>
+          </div>
+          <div class="d-flex align-items-center px-1">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="12"
+              height="12"
+              fill="currentColor"
+              class="bi bi-volume-up"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M11.536 14.01A8.473 8.473 0 0 0 14.026 8a8.473 8.473 0 0 0-2.49-6.01l-.708.707A7.476 7.476 0 0 1 13.025 8c0 2.071-.84 3.946-2.197 5.303l.708.707z"
+              />
+              <path
+                d="M10.121 12.596A6.48 6.48 0 0 0 12.025 8a6.48 6.48 0 0 0-1.904-4.596l-.707.707A5.483 5.483 0 0 1 11.025 8a5.483 5.483 0 0 1-1.61 3.89l.706.706z"
+              />
+              <path
+                d="M10.025 8a4.486 4.486 0 0 1-1.318 3.182L8 10.475A3.489 3.489 0 0 0 9.025 8c0-.966-.392-1.841-1.025-2.475l.707-.707A4.486 4.486 0 0 1 10.025 8zM7 4a.5.5 0 0 0-.812-.39L3.825 5.5H1.5A.5.5 0 0 0 1 6v4a.5.5 0 0 0 .5.5h2.325l2.363 1.89A.5.5 0 0 0 7 12V4zM4.312 6.39 6 5.04v5.92L4.312 9.61A.5.5 0 0 0 4 9.5H2v-3h2a.5.5 0 0 0 .312-.11z"
+              />
+            </svg>
+          </div>
+          <div class="progress w-25">
+            <div
+              class="progress-bar progress-bar-striped bg-secondary"
+              role="progressbar"
+              style="width: 100%"
+              aria-valuenow="100"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            ></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  <script src="./home-js.js"></script>
+
+
+<script>
+  // function for hover effect for Good morinig cards 
+  function mouseOver(color) {
+    document.body.style.background = color
+    document.body.classList.add("out")
+}
+
+function mouseOut() {
+    document.body.style.background = "linear-gradient(180deg, rgb(83, 13, 4) 0%, rgb(0, 0, 0) 35%)"
+    document.body.classList.remove("out")
+}
+  // function for hover effect for Good morinig cards 
+  // -----------------------------------
+  // greeting function accroding to the current time 
+  window.onload = ( function() {        
+    getDateTime();
+     })(); 
+
+function getDateTime() {
+    const now     = new Date(); 
+    const hour    = now.getHours(); 
+   if(hour >= 12){  
+      document.getElementById('display').innerHTML = "Good afternoon";
+   }
+   else {
+         document.getElementById('display').innerHTML = "Good morning";
+    }
+}
+  // greeting function accroding to the current time 
+</script>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
