@@ -1,3 +1,25 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 let visibility = true;
 const navVisibility = () => {
   let nav = document.querySelector("nav");
