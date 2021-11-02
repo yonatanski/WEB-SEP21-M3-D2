@@ -13,9 +13,8 @@
     <title>Spotify|Home</title>
     <link rel = "icon" href =  "./assets/spotify-_2_-copy.ico" type = "image/x-icon">
     <!-- external css -->
-    <link rel="stylesheet" href="home-style.css" />
+    <link rel="stylesheet" href="./home-style.css" />
       <!-- external css -->
-      <script src="./deezer-api.js"></script>
   </head>
   <body class="d-fixed d-sm-flex p-0 m-0">
     <!-- Navbar -->
@@ -447,151 +446,9 @@
     </div>
    <!-- G.moring header  -->
   
-  <div class="d-flex justify-content-between">
-    <!-- card 1 -->
-    <div class="music-card mx-2"  id="cardHover" onmouseover="mouseOver('linear-gradient(180deg, rgb(28, 4, 83) 0%, rgb(0, 0, 0) 35%)')" onmouseout="mouseOut() ">
-      <div class="media d-flex">
-        <img
-          src="./assets/JColeKOD.jpg"
-          class="mr-3 img-fluid img1"
-          alt="..."
-        />
-        <div class="media-body bodyHover d-flex align-self-center">
-          <h6 class="mt-0">KOD</h6>
-          <h6 class="card-title ml-3"><i class="bi bi-play-circle-fill playHover"></i></h6>
-        </div>
-      </div>
-    </div>
-    <!-- card 2 -->
-    <div class="music-card mx-2 d-none d-md-block">
-      <div class="media gm flex-fill" id="cardHover" onmouseover="mouseOver('linear-gradient(180deg, rgb(252, 186, 3) 0%, rgb(0, 0, 0) 35%)')" onmouseout="mouseOut() ">
-        <img
-          src="./assets/Alleyezonme.jpg"
-          class="mr-3 img-fluid img1"
-          alt="..."
-        />
-        <div class="media-body bodyHover d-flex align-self-center">
-          <h6 class="mt-0">All eyez on me</h6>
-          <h6 class="card-title ml-3"><i class="bi bi-play-circle-fill playHover"></i></h6>
-        </div>
-      </div>
-    </div>
-    <!-- card 3 -->
-    <div class="music-card mx-2 d-none d-lg-block">
-      <div class="media gm"id="cardHover" onmouseover="mouseOver('linear-gradient(180deg, rgb(101, 150, 219) 0%, rgb(0, 0, 0) 35%)')" onmouseout="mouseOut() ">
-        <img
-          src="./assets/Dave_Psychodrama.jpeg"
-          class="mr-3 img-fluid img1"
-          alt="..."
-        />
-        <div class="media-body bodyHover d-flex align-self-center">
-          <h6 class="mt-0">Psychodrama</h6>
-          <h6 class="card-title ml-3"><i class="bi bi-play-circle-fill playHover"></i></h6>
-        </div>
-      </div>
-    </div>
-    <!-- card 4 -->
-    <div class="music-card mx-2 d-none d-xl-block">
-      <div class="media gm" id="cardHover" onmouseover="mouseOver('linear-gradient(180deg, rgb(25, 4, 83) 0%, rgb(0, 0, 0) 35%)')" onmouseout="mouseOut()"">
-        <img
-          src="./assets/Ready_To_Die.jpg"
-          class="mr-3 img-fluid img1"
-          alt="..."
-        />
-        <div class="media-body bodyHover d-flex align-self-center">
-          <h6 class="mt-0">Ready to die</h6>
-          <h6 class="card-title ml-3"><i class="bi bi-play-circle-fill playHover"></i></h6>
-        </div>
-      </div>
-    </div>
-    <!-- card 5 -->
-    <div class="music-card mx-2 d-none d-sm-block">
-      <div class="media gm"  id="cardHover" onmouseover="mouseOver('linear-gradient(180deg, rgb(82, 83, 4) 0%, rgb(0, 0, 0) 35%)')" onmouseout="mouseOut()">
-        <img
-          src="./assets/sad xxxt.jfif"
-          class="mr-3 img-fluid img1"
-          alt="..."
-        />
-        <div class="media-body bodyHover d-flex align-self-center">
-          <h6 class="mt-0">Sad</h6>
-          <h6 class="card-title ml-3"><i class="bi bi-play-circle-fill playHover"></i></h6>
-        </div>
-      </div>
-    </div>
+  <div class="d-flex justify-content-between" id="cards1">
   </div>
   <!--  -->
-  <!-- card second col -->
-  <!-- card 6 -->
-  <div class="d-flex mt-3">
-    <div class="music-card mx-2 ">
-      <div class="media gm"  id="cardHover" onmouseover="mouseOver('linear-gradient(180deg, rgb(4, 78, 83) 0%, rgb(0, 0, 0) 35%)')" onmouseout="mouseOut()">
-        <img
-          src="./assets/IllmaticNas.jpg"
-          class="mr-3 img-fluid img1"
-          alt="..."
-        />
-        <div class="media-body bodyHover d-flex align-self-center">
-          <h6 class="mt-0">Illmatic</h6>
-          <h6 class="card-title ml-3"><i class="bi bi-play-circle-fill playHover"></i></h6>
-        </div>
-      </div>
-    </div>
-    <div class="music-card mx-2 d-none d-md-block">
-      <div class="media gm" id="cardHover" onmouseover="mouseOver('linear-gradient(180deg, rgb(83, 4, 43) 0%, rgb(0, 0, 0) 35%)')" onmouseout="mouseOut()">
-        <img
-          src="./assets/J._Cole_—_4_Your_Eyez_Only_album_cover.jpg"
-          class="mr-3 img-fluid img1"
-          alt="..."
-        />
-        <div class="media-body bodyHover d-flex align-self-center">
-          <h6 class="mt-0">4 your eyez only</h6>
-          <h6 class="card-title ml-3"><i class="bi bi-play-circle-fill playHover"></i></h6>
-        </div>
-      </div>
-    </div>
-    <!-- card 7 -->
-    <div class="music-card mx-2 d-none d-lg-block">
-      <div class="media gm "id="cardHover" onmouseover="mouseOver('linear-gradient(180deg, rgb(83, 35, 4) 0%, rgb(0, 0, 0) 35%)')" onmouseout="mouseOut()">
-        <img
-          src="./assets/220px-Juice_Wrld_-_Legends_Never_Die.png"
-          class="mr-3 img-fluid img1"
-          alt="..."
-        />
-        <div class="media-body bodyHover d-flex align-self-center">
-          <h6 class="mt-0">Legends never die</h6>
-          <h6 class="card-title ml-3"><i class="bi bi-play-circle-fill playHover"></i></h6>
-        </div>
-      </div>
-    </div>
-    <!-- card 8 -->
-    <div class="music-card mx-2 d-none d-xl-block">
-      <div class="media gm" id="cardHover" onmouseover="mouseOver('linear-gradient(180deg, rgb(83, 4, 79) 0%, rgb(0, 0, 0) 35%)')" onmouseout="mouseOut()">
-        <img
-          src="./assets/Billie_Eilish_-_Don't_Smile_at_Me.png"
-          class="mr-3 img-fluid img1"
-          alt="..."
-        />
-        <div class="media-body bodyHover d-flex align-self-center">
-          <h6 class="mt-0">Don't smile at me</h6>
-          <h6 class="card-title ml-3"><i class="bi bi-play-circle-fill playHover"></i></h6>
-        </div>
-      </div>
-    </div>
-    <!-- card 8 -->
-    <div class="music-card mx-2 d-none d-sm-block">
-      <div class="media gm" id="cardHover" onmouseover="mouseOver('linear-gradient(180deg, rgb(4, 83, 14) 0%, rgb(0, 0, 0) 35%)')" onmouseout="mouseOut()">
-        <img
-          src="./assets/Konnichiwa_by_Skepta_cover.jpg"
-          class="mr-3 img-fluid img1"
-          alt="..."
-        />
-        <div class="media-body bodyHover d-flex align-self-center">
-          <h6 class="mt-0">Konnichiwa</h6>
-          <h6 class="card-title ml-3"><i class="bi bi-play-circle-fill playHover"></i></h6>
-        </div>
-      </div>
-    </div>
-  </div>
 
 
     
@@ -603,262 +460,9 @@
       </div>
 
       <div class="container-fluid ">
-        <div class="row recentlyPlayed-Cards">
-          <!-- card 1 -->
-          <a href="../album-page/album.html" class="col-sm-6 col-md-3 col-lg-2 mb-3 px-0">
-            <div class="card cardwrap mx-2 h-100 bg-dark border-dark">
-              <img
-                src="assets/220px-Juice_Wrld_-_Legends_Never_Die.png"
-                class="p-3"
-                alt="..."
-                id="notRounded"
-              />
-              <div class="card-body d-flex justify-content-between">
-                
-                <p class="card-text text-white"><strong>xxx tentasion</strong> <br>
-                
-                  <small class="text-muted">Music.</small>
-                </p>
-                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-play-circle-fill playButton" viewBox="0 0 16 16">
-                  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/>
-                </svg>
-              </div>
-            
-            </div>
-          </a>
-          <!-- card 2 -->
-          <a href="../album-page/album.html " class="col-sm-6 col-md-3 col-lg-2 mb-3 px-0">
-            <div class="card cardwrap mx-2  h-100 bg-dark border-dark">
-              <img
-                src="assets/Alleyezonme.jpg"
-                class="p-3"
-                alt="..."
-                id="notRounded"
-              />
-              <div class="card-body d-flex justify-content-between">
-                
-                <p class="card-text text-white"><strong>2 PAC</strong><br>
-                
-                  <small class="text-muted">Music.</small>
-                </p>
-                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-play-circle-fill playButton" viewBox="0 0 16 16">
-                  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/>
-                </svg>
-              </div>
-            </div>
-          </a >
-          <!-- card 3 -->
-          <a href="../album-page/album.html"  class="col-sm-6 col-md-3 col-lg-2 mb-3 px-0">
-            <div class="card cardwrap mx-2 h-100 bg-dark border-dark">
-              <img
-                src="assets/JColeKOD.jpg"
-                class="p-3"
-                alt="..."
-                id="notRounded"
-              />
-              <div class="card-body d-flex justify-content-between">
-                
-                <p class="card-text text-white"><strong>J-cole</strong><br>
-                
-                  <small class="text-muted">Music.</small>
-                </p>
-                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-play-circle-fill playButton" viewBox="0 0 16 16">
-                  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/>
-                </svg>
-              </div>
-            </div>
-          </a >
-          <!-- card 4 -->
-          <a href="../album-page/album.html"  class="col-sm-6 col-md-3 col-lg-2 mb-3 px-0">
-            <div class="card cardwrap mx-2 h-100 bg-dark border-dark">
-              <img
-                src="assets/Billie_Eilish_-_Don't_Smile_at_Me.png"
-                class="p-3"
-                alt="..."
-                id="notRounded"
-              />
-              <div class="card-body d-flex justify-content-between">
-                
-                <p class="card-text text-white"><strong>Bille Elish</strong> <br>
-                
-                  <small class="text-muted">Music</small>
-                </p>
-                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-play-circle-fill playButton" viewBox="0 0 16 16">
-                  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/>
-                </svg>
-              </div>
-            </div>
-          </a>
-          <!-- card 5 -->
-          <a href="../album-page/album.html"  class="col-sm-6 col-md-3 col-lg-2 mb-3 px-0">
-            <div class="card cardwrap mx-2 h-100 bg-dark border-dark">
-              <img
-                src="assets/Dave_Psychodrama.jpeg"
-                class="p-3"
-                alt="..."
-                id="notRounded"
-              />
-              <div class="card-body d-flex justify-content-between">
-                
-                <p class="card-text text-white"><strong>Dave</strong><br>
-                
-                  <small class="text-muted">Music.</small>
-                </p>
-                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-play-circle-fill playButton" viewBox="0 0 16 16">
-                  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/>
-                </svg>
-                
-              </div>
-            </div>
-          </a>
-          <!-- card 6 -->
-          <a href="../album-page/album.html"  class="col-sm-6 col-md-3 col-lg-2 mb-3 px-0">
-            <div class="card cardwrap mx-2 h-100 bg-dark border-dark">
-              <img
-                src="assets/Drake_-_Take_Care_cover.jpg"
-                class="p-3"
-                alt="..."
-                id="notRounded"
-              />
-              <div class="card-body d-flex justify-content-between">
-                
-                <p class="card-text text-white"><strong>Drake</strong><br>
-                
-                  <small class="text-muted">Music.</small>
-                </p>
-                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-play-circle-fill playButton" viewBox="0 0 16 16">
-                  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/>
-                </svg>
-              </div>
-            </div>
-          </a>
-          <!-- card 7 -->
-          <a href="../album-page/album.html"  class="col-sm-6 col-md-3 col-lg-2 mb-3 px-0">
-            <div class="card cardwrap mx-2 h-100 bg-dark border-dark">
-              <img
-                src="assets/IllmaticNas.jpg"
-                class="p-3"
-                alt="..."
-                id="notRounded"
-              />
-              <div class="card-body d-flex justify-content-between">
-                
-                <p class="card-text text-white"><strong>Nas</strong> <br>
-                
-                  <small class="text-muted">Music</small>
-                </p>
-                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-play-circle-fill playButton" viewBox="0 0 16 16">
-                  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/>
-                </svg>
-              </div>
-            </div>
-          </a>
-          <!-- card 8 -->
-          <a href="../album-page/album.html"  class="col-sm-6 col-md-3 col-lg-2 mb-3 px-0">
-            <div class="card cardwrap mx-2 h-100 bg-dark border-dark">
-              <img
-                src="assets/J._Cole_—_4_Your_Eyez_Only_album_cover.jpg"
-                class="p-3"
-                alt="..."
-                id="notRounded"
-              />
-              <div class="card-body d-flex justify-content-between">
-                
-                <p class="card-text text-white"><strong> J cole</strong><br>
-                
-                  <small class="text-muted">Music</small>
-                </p>
-                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-play-circle-fill playButton" viewBox="0 0 16 16">
-                  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/>
-                </svg>
-              </div>
-            </div>
-          </a>
-          <!-- card 9 -->
-          <a href="../album-page/album.html"  class="col-sm-6 col-md-3 col-lg-2 mb-3 px-0">
-            <div class="card cardwrap mx-2 h-100 bg-dark border-dark">
-              <img
-                src="assets/Kanyewest_collegedropout.jpg"
-                class="p-3"
-                alt="..."
-                id="notRounded"
-              />
-              <div class="card-body d-flex justify-content-between">
-                
-                <p class="card-text text-white"><strong>Kayne west</strong><br>
-                
-                  <small class="text-muted">Music</small>
-                </p>
-                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-play-circle-fill playButton" viewBox="0 0 16 16">
-                  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/>
-                </svg>
-              </div>
-            </div>
-          </a>
-          <!-- card 10 -->
-          <a href="../album-page/album.html"  class="col-sm-6 col-md-3 col-lg-2 mb-3 px-0">
-            <div class="card cardwrap mx-2 h-100 bg-dark border-dark">
-              <img
-                src="assets/Joe-Rogan.jpg"
-                class="p-3"
-                alt="..."
-                id="notRounded"
-              />
-              <div class="card-body d-flex justify-content-between">
-                
-                <p class="card-text text-white"><strong>Joe-Rogan</strong> <br>
-                
-                  <small class="text-muted">Music.</small>
-                </p>
-                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-play-circle-fill playButton" viewBox="0 0 16 16">
-                  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/>
-                </svg>
-              </div>
-            </div>
-          </a>
-          <!-- card 11 -->
-          <a href="../album-page/album.html"  class="col-sm-6 col-md-3 col-lg-2 mb-3 px-0">
-            <div class="card cardwrap mx-2 h-100 bg-dark border-dark">
-              <img
-                src="assets/Kendrick_Lamar_-_To_Pimp_a_Butterfly.png"
-                class="p-3"
-                alt="..."
-                id="notRounded"
-              />
-              <div class="card-body d-flex justify-content-between">
-                
-                <p class="card-text text-white"><strong>Kendrick Lamar</strong><br>
-                
-                  <small class="text-muted">Music</small>
-                </p>
-                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-play-circle-fill playButton" viewBox="0 0 16 16">
-                  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/>
-                </svg>
-              </div>
-            </div>
-          </a>
-          <!-- card 12 -->
-          <a href="../album-page/album.html"  class="col-sm-6 col-md-3 col-lg-2 mb-3 px-0">
-            <div class="card cardwrap mx-2 h-100 bg-dark border-dark">
-              <img
-                src="assets/The_Blueprint.png"
-                class="p-3"
-                alt="..."
-                id="notRounded"
-              />
-              <div class="card-body d-flex justify-content-between">
-                
-                <p class="card-text text-white"><strong>Jay- Z</strong><br>
-                
-                  <small class="text-muted">The most interesting tracks.</small>
-                </p>
-                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-play-circle-fill playButton" viewBox="0 0 16 16">
-                  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/>
-                </svg>
-              </div>
-            </div>
-          </a>
-    </div>
+        <div class="row recentlyPlayed-Cards" id="cards2">
+        </div>
+      </div>
     </section>
         <!-- recently played section  -->
         <!--  -->
@@ -876,134 +480,7 @@
 
       <div class="container-fluid ">
         <!-- using the same card as in recently played section  -->
-        <div class="row recentlyPlayed-Cards">
-          <!-- card 1 -->
-          <a href="../album-page/album.html"  class="col-sm-6 col-md-3 col-lg-2 mb-3 px-0">
-            <div class="card cardwrap mx-2 h-100 bg-dark border-dark">
-              <img
-                src="assets/Kanyewest_collegedropout.jpg"
-                class="p-3"
-                alt="..."
-                id="notRounded"
-              />
-              <div class="card-body d-flex justify-content-between">
-                
-                <p class="card-text text-white"><strong>Kayne West</strong> <br>
-                
-                  <small class="text-muted">Music</small>
-                </p>
-                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-play-circle-fill playButton" viewBox="0 0 16 16">
-                  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/>
-                </svg>
-              </div>
-            </div>
-          </a>
-          <!-- card 2 -->
-          <a href="../album-page/album.html"  class="col-sm-6 col-md-3 col-lg-2 mb-3 px-0">
-            <div class="card cardwrap mx-2 h-100 bg-dark border-dark">
-              <img
-                src="assets/Billie_Eilish_-_Don't_Smile_at_Me.png"
-                class="p-3"
-                alt="..."
-                id="notRounded"
-              />
-              <div class="card-body d-flex justify-content-between">
-                
-                <p class="card-text text-white"><strong>Belie Elissh</strong><br>
-                
-                  <small class="text-muted">Music.</small>
-                </p>
-                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-play-circle-fill playButton" viewBox="0 0 16 16">
-                  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/>
-                </svg>
-              </div>
-            </div>
-          </a>
-          <!-- card 3 -->
-          <a href="../album-page/album.html"   class="col-sm-6 col-md-3 col-lg-2 mb-3 px-0">
-            <div class="card cardwrap mx-2 h-100 bg-dark border-dark">
-              <img
-                src="assets/Kanyewest_collegedropout.jpg"
-                class="p-3"
-                alt="..."
-                id="notRounded"
-              />
-              <div class="card-body d-flex justify-content-between">
-                
-                <p class="card-text text-white"><strong>Kayne west</strong><br>
-                
-                  <small class="text-muted">Music</small>
-                </p>
-                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-play-circle-fill playButton" viewBox="0 0 16 16">
-                  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/>
-                </svg>
-              </div>
-            </div>
-          </a>
-          <!-- card 4 -->
-          <a href="../album-page/album.html"  class="col-sm-6 col-md-3 col-lg-2 mb-3 px-0">
-            <div class="card cardwrap mx-2 h-100 bg-dark border-dark">
-              <img
-                src="assets/Billie_Eilish_-_Don't_Smile_at_Me.png"
-                class="p-3"
-                alt="..."
-                id="notRounded"
-              />
-              <div class="card-body d-flex justify-content-between">
-                
-                <p class="card-text text-white"><strong>Bilile Elish</strong> <br>
-                
-                  <small class="text-muted">Music</small>
-                </p>
-                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-play-circle-fill playButton" viewBox="0 0 16 16">
-                  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/>
-                </svg>
-              </div>
-            </div>
-          </a>
-          <!-- card 5 -->
-          <a href="../album-page/album.html"  class="col-sm-6 col-md-3 col-lg-2 mb-3 px-0">
-            <div class="card cardwrap mx-2 h-100 bg-dark border-dark">
-              <img
-                src="assets/Drake_-_Take_Care_cover.jpg"
-                class="p-3"
-                alt="..."
-                id="notRounded"
-              />
-              <div class="card-body d-flex justify-content-between">
-                
-                <p class="card-text text-white"><strong>Drake</strong><br>
-                
-                  <small class="text-muted">Music.</small>
-                </p>
-                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-play-circle-fill playButton" viewBox="0 0 16 16">
-                  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/>
-                </svg>
-              </div>
-            </div>
-          </a>
-          <!-- card 6 -->
-          <a href="../album-page/album.html" class="col-sm-6 col-md-3 col-lg-2 mb-3 px-0">
-            <div class="card cardwrap mx-2 h-100 bg-dark border-dark">
-              <img
-                src="assets/Dave_Psychodrama.jpeg"
-                class="p-3"
-                alt="..."
-                id="notRounded"
-              />
-              <div class="card-body d-flex justify-content-between">
-                
-                <p class="card-text text-white"><strong>Dave</strong><br>
-                
-                  <small class="text-muted">Music</small>
-                </p>
-                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-play-circle-fill playButton" viewBox="0 0 16 16">
-                  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/>
-                </svg>
-              </div>
-            </div>
-          </a>
-          
+        <div class="row recentlyPlayed-Cards" id="cards3">
         </div>
     </section>
           <!-- End Shows to try  -->
@@ -1019,6 +496,13 @@
      </div>
     <!-- main container div closure   -->
   </div>
+
+      <button class="btn btn-primary" onclick="logTitle()">
+        list albums
+      </button>
+      <button class="btn btn-primary" onclick="alertNum()">
+        count unique
+      </button>
     </main>
     <!-- Player -->
     <div class="container-fluid text-light bg-dark px-2" id="player">
@@ -1261,21 +745,10 @@
     </div>
 
 
-  <script src="./home-js.js"></script>
+  <script src="deezer-api.js"></script>
 
 
 <script>
-
-
-
-
-
-
-
-
-
-
-
   // function for hover effect for Good morinig cards 
   function mouseOver(color) {
     document.body.style.background = color
