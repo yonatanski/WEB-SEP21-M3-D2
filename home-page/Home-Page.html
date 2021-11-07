@@ -442,7 +442,38 @@
         <!-- <div class="col-12"> -->
           <!-- G.moring header  -->
     <div class=" goodmorningcontainer mt-5 mb-3">
+    
       <h4 id="display" class=" mx-2">Good morning</h4>
+<!-- new modal applied here  -->
+<!-- Button trigger modal -->
+<button type="button" onclick="displayAlbums()  " class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  List of Albums
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Album Titles</h5>
+  
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div id= "modal" class="modal-body">
+       
+          
+   
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+       
+      </div>
+    </div>
+  </div>
+</div>
+<!-- new modal applied here  -->
     </div>
    <!-- G.moring header  -->
   
@@ -497,11 +528,11 @@
     <!-- main container div closure   -->
   </div>
 
-      <button class="btn btn-primary" onclick="logTitle()">
+      <!-- <button class="btn btn-primary" onclick="logTitle()">
         list albums
-      </button>
+      </button> -->
       <button class="btn btn-primary" onclick="alertNum()">
-        count unique
+        Count Unique
       </button>
     </main>
     <!-- Player -->

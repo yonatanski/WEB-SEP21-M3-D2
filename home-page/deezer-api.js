@@ -9,6 +9,7 @@ fetch("https://deezerdevs-deezer.p.rapidapi.com/search?q=eminem", {
 })
   .then((response) => response.json())
   .then((data) => {
+    // console.log(data)
     data.data.map((i) => {
       allData.push(i)
       let node = document.createElement("div")
@@ -120,3 +121,14 @@ fetch("https://deezerdevs-deezer.p.rapidapi.com/search?q=behemoth", {
 const logTitle = () => allData.map((i) => console.log(i.album.title))
 
 const alertNum = () => console.log(`total: ${allData.length}`)
+
+function displayAlbums() {
+  // for (let i = 0; i<albums.length; i++ ) {
+  //     const album = albums[i]
+  // document.getElementsByClassName("modal-body")
+  allData.map((i) => i.album.title)
+  const li = `<ol>
+  <li>${allData.map((i) => i.album.title)}</li>
+</ol>`
+  document.getElementById("modal").innerHTML = li
+}
